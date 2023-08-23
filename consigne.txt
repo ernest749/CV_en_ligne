@@ -1,0 +1,3 @@
+modifier dans exp_prof_insert: id_inf_pers
+			  det_acad_insert:
+			 loisir_interet_insert.php

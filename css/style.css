@@ -1,0 +1,143 @@
+body {
+ /* min-height: 75rem;*/
+  /*padding-top: 0.5rem;*/
+  
+  width: 100%;
+  /*background-color:#000013; */
+}
+header{
+	/*background-image: linear-gradient(-45deg,rgb(7, 133, 3) 15%,rgb(1, 13, 182) 50%,rgb(255, 217, 0) 50%,rgba(247, 101, 4, 0.993) 75%,rgb(91, 255, 15) 70%);
+	*/
+	background-image: linear-gradient(-45deg,#000013 20%,#0000FF 40%,#000033 60%,#0000FF 80%,#000013 90%);
+	
+	/*height: auto;*/
+	height: 100px;
+	width: 100%;
+
+}
+.titre{
+	font-size: 3.0em;
+	color: #FFFFFF;
+	text-align: left;
+	text-shadow:3px 8px 7px #999999;
+
+}
+.top-header-right{
+	float:right;
+	margin-top: 10px;
+}
+.top-header-right a{
+	margin-left: 20px;
+}
+
+section{
+	margin-top: 1px;
+	width: 98%;
+	
+}
+
+.image-fond{
+	width: 242px;
+	height: 321px;
+	max-width: 242px;
+	max-height: 321px;
+	border: none;
+	border-radius: 10px;
+	margin:8px;
+}
+.description-page{
+	font-size: 40px;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-family: "Agency FB", Calibri, "MS Gothic";
+	font-style: italic; 
+}
+.description-page2{
+	font-size: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	
+}
+.style2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	
+}
+
+footer{
+	padding-bottom:23px;
+	background: #000013;
+	float:bottom;
+	color: #FFFFFF!important;
+	font-size: 15px;
+}
+
+.footer-t{
+	display: flex;
+}
+
+.footer-line{
+	border: 1px solid #FFFFFF !important;
+	width: 35%;
+	color: #FFFFFF;
+	background-color: #FFFFFF ;
+}
+.footer-line:hover{
+	background-color: red;
+	border: 1.2px solid red;
+}
+.footer-last-section{
+	text-align: center;
+	font-size: 24px;
+	font-family: Source sans Pro;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.footer-last-section a{
+	text-decoration: none;
+}
+
+.dec{
+	float: right;
+	margin-top: 20px;
+	margin-right:10px; 
+
+}
+.dec:hover{
+	background-color: red;
+}
+
+ .legen-borderer{
+ 	/*background-color: green;*/
+ 	/*color: white;*/
+ 	font-weight: bold;
+ 	color:green;
+ 	text-align: center;
+ }
+ .form-control{
+ 	text-align: center;
+ }
+ .field-marg{
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ }
+ .form-control .modif{
+ 	margin-top: 15px;
+ 	margin-bottom: 10px;
+ }
+
+
+
+
+/*animation avec keyframes*/
+
+@-webkit-keyframes pulse {
+0% {
+	-webkit-box-shadow: 0 0 12px rgba(51, 204, 255, 0.2);
+	}
+50% {
+	-webkit-box-shadow: 0 0 12px rgba(51, 204, 255, 0.9);
+	}
+100% {
+	-webkit-box-shadow: 0 0 12px rgba(51, 204, 255, 0.2);
+	}
+}
